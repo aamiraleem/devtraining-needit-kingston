@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="pa_contributor" name="pa_contributor">aeec30b3bf101100b96dac808c073943</contains>
+        <role display_value="x_58872_needit.Needit Security Admin" name="x_58872_needit.Needit Security Admin">e0ebbae04fc033005d07aa2f9310c77f</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-04 17:48:27</sys_created_on>
+        <sys_id>49ac36244fc033005d07aa2f9310c73c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_contributor.x_58872_needit.Needit Security Admin</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_user_role_contains_49ac36244fc033005d07aa2f9310c73c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-04 17:48:27</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
