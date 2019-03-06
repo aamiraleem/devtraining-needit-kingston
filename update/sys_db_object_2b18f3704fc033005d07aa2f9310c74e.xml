@@ -2,13 +2,13 @@
 <record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
-        <actions_access>false</actions_access>
-        <alter_access>false</alter_access>
-        <client_scripts_access>false</client_scripts_access>
-        <configuration_access>false</configuration_access>
-        <create_access>false</create_access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
-        <delete_access>false</delete_access>
+        <delete_access>true</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
         <label>NeedItCustomers</label>
@@ -24,16 +24,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-05 16:46:59</sys_created_on>
         <sys_id>2b18f3704fc033005d07aa2f9310c74e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>NeedItCustomers</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_db_object_2b18f3704fc033005d07aa2f9310c74e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-05 16:46:59</sys_updated_on>
-        <update_access>false</update_access>
+        <sys_updated_on>2019-03-06 16:47:31</sys_updated_on>
+        <update_access>true</update_access>
         <user_role display_value="x_58872_needit.needitcustomers_user" name="x_58872_needit.needitcustomers_user">5e28fbfc4f8033005d07aa2f9310c7f8</user_role>
-        <ws_access>true</ws_access>
+        <ws_access>false</ws_access>
     </sys_db_object>
 </record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="needit_staging3" max_length="40" name="x_58872_needit_needit_staging3" type="collection">
+        <element attributes="import_attribute_name=amount" label="amount" max_length="40" name="u_amount" type="integer"/>
+        <element attributes="import_attribute_name=customer_name,edge_encryption_enabled=true" label="customer_name" max_length="40" name="u_customer_name" type="string"/>
+        <element attributes="import_attribute_name=customer_phone" label="customer_phone" max_length="40" name="u_customer_phone" type="float"/>
+        <element attributes="import_attribute_name=D,edge_encryption_enabled=true" label="D" max_length="40" name="u_d" type="string"/>
+        <element attributes="import_attribute_name=product_name,edge_encryption_enabled=true" label="product_name" max_length="40" name="u_product_name" type="string"/>
+        <element attributes="import_attribute_name=quantity" label="quantity" max_length="40" name="u_quantity" type="integer"/>
+        <element attributes="import_attribute_name=rate" label="rate" max_length="40" name="u_rate" type="integer"/>
+        <element attributes="import_attribute_name=sys_created_on" label="sys_created_on" max_length="40" name="u_sys_created_on" type="glide_date"/>
+    </element>
+</database>
