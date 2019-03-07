@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_notif_subscription">
+    <sys_notif_subscription action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <affected_record/>
+        <affected_table/>
+        <condition/>
+        <devices>b81aeba38002230065177a4cb39b4351,7c309d654f0c33005d07aa2f9310c7f1</devices>
+        <filter/>
+        <name>Notification1</name>
+        <notification display_value="Passwords Require Updating">13fe05ee7f0232005f58108c3ffa91f9</notification>
+        <schedule/>
+        <sys_class_name>sys_notif_subscription</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-07 12:30:28</sys_created_on>
+        <sys_id>e48051a54f0c33005d07aa2f9310c7fb</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Notification1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_notif_subscription_e48051a54f0c33005d07aa2f9310c7fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-07 12:30:37</sys_updated_on>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+    </sys_notif_subscription>
+</record_update>

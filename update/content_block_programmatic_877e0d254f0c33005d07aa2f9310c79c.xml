@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_programmatic">
+    <content_block_programmatic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>kb</category>
+        <condition><![CDATA[//Fetch Records from NeedItCustomers tables with filter
+var rec = new GlideRecord('x_58872_needit_needitcustomers');
+ rec.addQuery('customer_name','Acer');
+ // rec.addQuery('rate','>',2);
+ //rec.addQuery('sys_created_on', ">", "2019-01-19 04:05:00");
+rec.query();
+var TotalRecords="";
+while (rec.next()) { 
+ //rec.active = false;
+TotalRecords=TotalRecords+ rec.order_number+", ";
+TotalRecords=TotalRecords+ rec.product_name+", ";
+TotalRecords=TotalRecords+ rec.quantity+", ";
+TotalRecords=TotalRecords+ rec.rate+", ";
+TotalRecords=TotalRecords+ (rec.quantity)*(rec.rate)+"\n\r";
+ 
+//Update Value
+//rec.order_number=rec.order_number+"@9999@";
+ //rec.update();
+}
+gs.info("All Records New:\n\r"+TotalRecords);
+gs.info("Total records in x_58872_needit_needitcustomers table = " + rec.getRowCount());
+]]></condition>
+        <conditional>true</conditional>
+        <frame display_value="frame_grey_border">cf52ad460a0a0b6300321234a7187571</frame>
+        <logged_on>false</logged_on>
+        <name>Content Block1</name>
+        <programmatic_content><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+
+</j:jelly>]]></programmatic_content>
+        <sys_class_name>content_block_programmatic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-07 12:22:16</sys_created_on>
+        <sys_id>877e0d254f0c33005d07aa2f9310c79c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Block1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>content_block_programmatic_877e0d254f0c33005d07aa2f9310c79c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-07 12:22:16</sys_updated_on>
+        <two_phase>false</two_phase>
+    </content_block_programmatic>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#173b63</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>logorc.png</file_name>
+        <image_height>45</image_height>
+        <image_width>190</image_width>
+        <size_bytes>807</size_bytes>
+        <size_compressed>817</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-07 12:23:57</sys_created_on>
+        <sys_id>3c2f09254f0c33005d07aa2f9310c787</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-07 12:23:57</sys_updated_on>
+        <table_name>content_block_programmatic</table_name>
+        <table_sys_id>877e0d254f0c33005d07aa2f9310c79c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logorc.png" sys_id="3c2f09254f0c33005d07aa2f9310c787">3c2f09254f0c33005d07aa2f9310c787</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-07 12:23:57</sys_created_on>
+        <sys_id>7c2f09254f0c33005d07aa2f9310c787</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLS+4BYl4MZSKpHKDoBKeMAnxBXIC1unUwSurhavwWoTaAkyC+Y4YBDwwcBgwsLHiQobJhQEKD5xKCDgYFpsqeLY0jGvbfXb/ctNuBhSzhe5sey4v7/TPGCuwanRXbcyBDtjDfWXZL56aRLIxPDto52U8bbSxx6t3h8kZ6/1NNC5sfeX2tXBu+P+PVp+rGaz7vrZbddjP64er+r09f/D8pfTp8l9/eSkaBJ7p8rs/QvqDXufsZs+6f9/4fvJ5cURurYXPLx++64SGNWZ0fqWY+t2Urf5/Z7R32OfZug66p+fwLjnl/CDpNM3yQKcDPVPj6/J5R9+8K3dWIzDvcdEM6449+3en7857fPL2X49Rs37ar8+PlaVgZT7s4H6g85n09MvbB5SRXnhie1Z4W9De0y2/6+POEUXpNdwZj39NOHqFJDhwvsV0uDvl/cfH2j3g/9k0959eT3n19kU3gt28juypXgKTXT/U/VOybu/uv/nr33gc2CCPP9fz6K2nO9cuTYcMxdUT40/qfGyyn85T/yfLUmlGy83G7W8WtrV1jNpKf/u/Q3Jp2Zv/batoplOvqfH036IH5/ss/0mu70uXUiZ3NE5VfHXbrle7r+2HGr93k/Uo6332/w0536/lpHwc7T/IF9f5g3HTi9U7Bh3Q+3tYoH+e0fTZu5U2Z1fs20k4dN4yObG9Musszg/xOSXbmx4pPm/S6zkx9q3y622HFS/i3TObVihpcH9Et3FP/LWF31rOCQfEvd89umOw+Hc3TlTdnV47aet23Lo81v7WtOuSeGzH9Qvq88/Wq70k89+1uL4u8EFNSeZK9buXu/WeLcwvPh3z00T7+y/nQzV7CzdGN208fS3LPmP40cLjb3lF2+/3Htj515/2tOsd+JkjmUXzN7zp7a203V+9L3PdhcPJ+Z+fnEaY9nvfj02/bdvmPR3a29+7kffT7w54P8v8P1P/7Ptz+h9/dj/Q/rJ+//2n6K/hW7OOVp9qQSyaZ1f1lif3Pu+nZZvjZY95SYRfZZYNJl8HT1c1nnlNAEAH6Y7msnAwAA</data>
+        <length>1076</length>
+        <position>1</position>
+        <sys_attachment display_value="logorc.png" sys_id="3c2f09254f0c33005d07aa2f9310c787">3c2f09254f0c33005d07aa2f9310c787</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-07 12:23:57</sys_created_on>
+        <sys_id>fc2f09254f0c33005d07aa2f9310c787</sys_id>
+    </sys_attachment_doc>
+</record_update>
