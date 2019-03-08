@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>NeedItFlow1</description>
+        <label_cache>[{"name":"475f5212-778d-42ba-8772-2d17aa132a0b.table_name","label":"3➛NeedItTask Table","reference":"x_58872_needit_needittask","reference_display":"NeedItTask Table"},{"name":"475f5212-778d-42ba-8772-2d17aa132a0b.record","label":"3➛NeedItTask Record","reference":"x_58872_needit_needittask","reference_display":"NeedItTask Record"},{"name":"9dc3b7a2-4d2e-4643-bcd7-1f6dc4e52eb0.email","label":"2➛email","reference":"sys_email","reference_display":"email"}]</label_cache>
+        <latest_snapshot display_value="NeedItFlow1">d45fdef94f0033005d07aa2f9310c7ac</latest_snapshot>
+        <name>NeedItFlow1</name>
+        <remote_trigger_id>685fdef94f0033005d07aa2f9310c7d2</remote_trigger_id>
+        <show_draft_actions>false</show_draft_actions>
+        <status>modified</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-08 12:48:35</sys_created_on>
+        <sys_id>2b5edeb94f0033005d07aa2f9310c778</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>NeedItFlow1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_2b5edeb94f0033005d07aa2f9310c778</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-08 13:09:55</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

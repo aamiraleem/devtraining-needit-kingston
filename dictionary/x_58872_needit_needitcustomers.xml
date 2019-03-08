@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="NeedItCustomers" max_length="40" name="x_58872_needit_needitcustomers" type="collection">
-        <element display="true" label="Amount" max_length="40" name="amount" read_only="true" type="integer"/>
+        <element label="Amount" max_length="40" name="amount" read_only="true" type="integer"/>
         <element choice="1" label="Customer Name" mandatory="true" max_length="55" name="customer_name" type="choice">
             <choice>
                 <element label="Acer" value="Acer"/>
